@@ -1,0 +1,92 @@
+body
+{
+	color:#ffff00;
+	background-color: #75746f;
+	margin:10% 10% 10% 10%;
+	text-align: center;
+	background-image: url("images/india.png");
+}
+ul
+{
+	font-size: 5 px;
+	list-style: none;
+	text-align: center;
+}
+ul li
+{
+	font-size: 10px;
+	text-align: center;
+	background-color: green;
+	height: 20px;
+	border: 1px solid #A9A9A9;
+	width: 200px;
+	float: left;
+	text-align: center;
+	margin: 0% 0% 0% 0%;
+}
+ul li:hover
+{
+	background-color: blue;
+}
+ul ul
+{
+	display: none;
+}
+ul li:hover > ul
+{
+	display: block;
+	Position:relative;
+}
+ul li ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+a:link
+{
+	color:orange ;
+}
+a:visited
+{
+	color:orange;
+}
+h1.title
+{
+	height:60px;
+	background-color: green;
+}
+p.first
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p.geo
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p.tech
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p.tech2
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p.tech3
+{
+	font-size: 20px;
+	text-align: justify;
+}
+ol.indus
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p.fall
+{
+	font-size: 20px;
+	text-align: justify;
+}

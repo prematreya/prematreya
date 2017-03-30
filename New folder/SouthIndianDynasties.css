@@ -1,0 +1,88 @@
+
+body
+{
+	color:#ffff00;
+	background-color: #75746f;
+	margin:10% 10% 10% 10%;
+	text-align: center;
+	background-image: url("images/india.png");
+}
+ul
+{
+	font-size: 5 px;
+	list-style: none;
+	text-align: center;
+}
+ul li
+{
+	font-size: 10px;
+	text-align: center;
+	background-color: green;
+	height: 20px;
+	border: 1px solid #A9A9A9;
+	width: 200px;
+	float: left;
+	text-align: center;
+	margin: 0% 0% 0% 0%;
+}
+ul li:hover
+{
+	background-color: blue;
+}
+ul ul
+{
+	display: none;
+}
+ul li:hover > ul
+{
+	display: block;
+	Position:relative;
+}
+ul li ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+a:link
+{
+	color:orange ;
+}
+a:visited
+{
+	color:orange;
+}
+{
+	height:60px;
+	background-color: green;
+}
+p
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p.pandyan
+{
+	margin:0% 40% 0% 0%;
+}
+/*The following changes the size and position of the picture*/
+img.temple
+{
+	margin:-18% 0% 0% 55%;
+	width: 200px;
+	height: 160px;
+}
+h1.title
+{
+	height:60px;
+	background-color: green;
+}
+img.EIC
+{
+	height:250px;
+	width:250px;
+	margin:-23% 50% 0% 0%;
+}
+p.EastIndiaCompany
+{
+	margin:0% 0% 0% 50%
+}
