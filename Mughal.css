@@ -1,0 +1,81 @@
+body
+{
+	color:#ffff00;
+	background-color: #75746f;
+	margin:10% 10% 10% 10%;
+	text-align: center;
+	background-image: url("images/india.png");
+}
+/*The lines below are fore the Navagation Bar text*/
+ul
+{
+	font-size: 5 px;
+	list-style: none;
+	text-align: center;
+}
+/*The line below is used for the background and position of the Navagation Bar*/
+ul li
+{
+	font-size: 10px;
+	text-align: center;
+	background-color: green;
+	height: 20px;
+	border: 1px solid #A9A9A9;
+	width: 200px;
+	float: left;
+	text-align: center;
+	margin: 0% 0% 0% 0%;
+}
+ul li:hover
+{
+	background-color: blue;
+}
+ul ul
+{
+	display: none;
+}
+/*This lines below are used for the pop down aspect of the Navagation Bar*/
+ul li:hover > ul
+{
+	display: block;
+	Position:relative;
+}
+ul li ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*The following is the link color when visited and not visited*/
+a:link
+{
+	color:yellow;
+}
+a:visited
+{
+	color:yellow;
+}
+h1.title
+{
+	height:60px;
+	background-color: green;
+}
+p.Hist
+{
+	font-size: 20px;
+	text-align: justify;
+}
+p
+{
+	font-size: 20px;
+	text-align: justify;
+}
+img.map
+{
+	height:300px;
+	width:400px;
+	margin: -25% 0% 0% 50%
+}
+p.Hist
+{
+	margin:0% 50% 0% 0%;
+}
